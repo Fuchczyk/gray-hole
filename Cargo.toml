@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "gray-hole-lib",
+    "gray-hole-client",
+    "gray-hole-server"
+]
+
+[workspace.package]
+license = "MIT"
+authors = ["Przemysław Fuchs <fuchs.przemyslaw@gmail.com>"]
+
+[workspace.dependencies]
+anyhow = "1.0.66"
